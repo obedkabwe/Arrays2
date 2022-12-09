@@ -12,13 +12,14 @@ public class Exercises2 {
 			 //vect[i]= sc.nextInt();
 			// System.out.println(vect.length);
 		}
-		 System.out.println(vect.length);
-       // for (int i : vect) {
-		// sum = sum + i;
-		// System.out.println(sum);
-		//}
 		
-		
+        for (int i : vect) {
+		 sum = sum + i;
+		 int av = sum/vect.length;
+		 System.out.println(av);
+		}
+      //  int av = sum/vect.length;
+       // System.out.println(av);
 		
 		
 		
